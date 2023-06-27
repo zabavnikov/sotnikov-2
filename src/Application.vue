@@ -1,8 +1,9 @@
 <template>
   <div class="space-y-10">
-    <Charts />
-    <CircleDiagram class="hidden" />
+    <!--    <CircleDiagram />-->
+    <Figma />
     <Funnel />
+    <Charts />
   </div>
 </template>
 
@@ -10,4 +11,5 @@
 import Charts from './components/Charts.vue'
 import CircleDiagram from './components/CircleDiagram.vue'
 import Funnel from './components/Funnel.vue'
+import Figma from './components/Figma.vue'
 </script>
